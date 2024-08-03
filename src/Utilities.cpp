@@ -1,4 +1,4 @@
-#include "utilities.h"
+#include "Utilities.h"
 
 std::string* Utilities::char_arr_to_string(char** from, std::string* to, int n)
 {

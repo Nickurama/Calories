@@ -1,6 +1,6 @@
-#include "main.h"
-#include "calories.h"
-#include "utilities.h"
+#include "Main.h"
+#include "Calories.h"
+#include "Utilities.h"
 
 int main(int arg_num, char** args)
 {
