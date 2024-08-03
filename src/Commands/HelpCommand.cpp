@@ -1,5 +1,3 @@
-#include <iostream>
-#include "../TerminalColors.h"
 #include "HelpCommand.h"
 
 const std::string HelpCommand::STR = "help";
@@ -18,4 +16,4 @@ void HelpCommand::execute() const
 	std::cout << CMD_COLOR << "stats" << TXT_COLOR << " - checks your stats" << RESET << std::endl;
 }
 
-std::string HelpCommand::toString() { return STR; }
+std::string HelpCommand::toString() { return HelpCommand::STR; }
